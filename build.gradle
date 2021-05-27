@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+compileJava.options.encoding = 'UTF-8'
+
+
+
+repositories {
+    mavenCentral()
+}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+dependencies {
+    testImplementation 'junit:junit:4.11'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+    // https://mvnrepository.com/artifact/opensymphony/sitemesh
+    implementation group: 'opensymphony', name: 'sitemesh', version: '2.4.2'
+// https://mvnrepository.com/artifact/jstl/jstl
+    implementation group: 'jstl', name: 'jstl', version: '1.2'
+// https://mvnrepository.com/artifact/javax.servlet/jsp-api
+    compileOnly group: 'javax.servlet', name: 'jsp-api', version: '2.0'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+    // https://mvnrepository.com/artifact/javax.inject/javax.inject
+    implementation group: 'javax.inject', name: 'javax.inject', version: '1'
+    // https://mvnrepository.com/artifact/org.jboss.weld.servlet/weld-servlet
+    implementation group: 'org.jboss.weld.servlet', name: 'weld-servlet', version: '2.4.8.Final'
+
+}
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,42 @@
+com/codegym/dao/impl/CategoryDAO.java
+ com.codegym.dao.impl.CategoryDAO
+com/codegym/dao/impl/AbstractDAO.java
+ com.codegym.dao.impl.AbstractDAO
+com/codegym/service/impl/CategoryService.java
+ com.codegym.service.impl.CategoryService
+com/codegym/dao/ICategoryDAO.java
+ com.codegym.dao.ICategoryDAO
+com/codegym/dao/GenericDAO.java
+ com.codegym.dao.GenericDAO
+com/codegym/model/CommentModel.java
+ com.codegym.model.CommentModel
+com/codegym/model/NewModel.java
+ com.codegym.model.NewModel
+com/codegym/mapper/NewMapper.java
+ com.codegym.mapper.NewMapper
+com/codegym/mapper/CategoryMapper.java
+ com.codegym.mapper.CategoryMapper
+com/codegym/model/AbstractModel.java
+ com.codegym.model.AbstractModel
+com/codegym/service/ICategoryService.java
+ com.codegym.service.ICategoryService
+com/codegym/model/UserModel.java
+ com.codegym.model.UserModel
+com/codegym/mapper/RowMapper.java
+ com.codegym.mapper.RowMapper
+com/codegym/controller/admin/HomeController.java
+ com.codegym.controller.admin.HomeController
+com/codegym/model/RoleModel.java
+ com.codegym.model.RoleModel
+com/codegym/model/CategoryModel.java
+ com.codegym.model.CategoryModel
+com/codegym/service/impl/NewService.java
+ com.codegym.service.impl.NewService
+com/codegym/controller/web/HomeController.java
+ com.codegym.controller.web.HomeController
+com/codegym/service/INewService.java
+ com.codegym.service.INewService
+com/codegym/dao/INewDAO.java
+ com.codegym.dao.INewDAO
+com/codegym/dao/impl/NewDAO.java
+ com.codegym.dao.impl.NewDAO
